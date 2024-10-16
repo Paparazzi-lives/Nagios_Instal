@@ -11,7 +11,7 @@ Sign in to nagios using <your-nagios-server-public-ip>/nagios eg: 25.12.14.15/na
 Run the SECOND script (Nagios_server2.sh) on the Nagios Server
 Follow step 22 of Aminu's online guide to reschedule the changes to update changes
 Run the THIRD script (nagios_host.sh) on the Nagios_Host and interact where needed
-Run the FOUTH script (Nagios_server3.sh) on the Nagios_Server - (Note: In this script, you need to replace the IP (in this case 52.59.195.250) with the PUBLIC IP of your Nagios_Host
+Run the FOUTH script (Nagios_server3.sh) on the Nagios_Server - (Note: In this script, you need to replace the IP (in this case 52.59.195.250))  with the PUBLIC IP of your Nagios_Host
 Done
 Bonus, you can paste the public IP of your Nagios Host in your browser to see the nice website it is hosting!
 Note, you may need to manually copy the scripts to your server, then run chmod +x <name of the script> to make it executable or use the SCP command to copy it to your servers.
