@@ -90,4 +90,4 @@ sudo bash -c 'cat > index.html <<EOL
 </body>
 </html>
 EOL'
-#Kindly enjoy your nagios installation.
+#Enjoy smooth nagios installation.
