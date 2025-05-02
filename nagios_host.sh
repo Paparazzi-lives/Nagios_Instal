@@ -91,3 +91,5 @@ sudo bash -c 'cat > index.html <<EOL
 </html>
 EOL'
 #Enjoy smooth nagios installation.
+
+#Do not forget to post in the comment box for any kind of support.
