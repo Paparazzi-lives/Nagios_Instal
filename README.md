@@ -1,4 +1,5 @@
 # Nagios_Instal
+# This is a step - by - step approach to install Nagios to your local host.
 
 #In this installation, we are using ubuntu variance on Linux as our operating system.
 Step-by-step to install Nagios on your ubuntu server.
