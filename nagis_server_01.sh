@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # ON THE NAGIOS SERVER
+
 # ref: https://medium.com/@princeashok069/nagios-practical-028bd64c5c88
 # Steps 2 to 16. Be sure to run the rest of the commands manually after this
 # The steps from 17 onward typically involve post-installation tasks, such as fixing specific issues, adding hosts, and setting up monitoring for remote machines, which might be seen as extensions rather than core parts of the installation.
@@ -16,6 +17,7 @@ sudo sed -i 's/DirectoryIndex.*/DirectoryIndex index.php index.html index.cgi in
 sudo systemctl restart apache2
 
 # Sep 4 - Download, extract, compile, and install Nagios Core
+#Switch to the opt/ directory
 cd /opt
 sudo wget -O nagioscore.tar.gz https://github.com/NagiosEnterprises/nagioscore/archive/nagios-4.4.14.tar.gz
 sudo tar xzf nagioscore.tar.gz
